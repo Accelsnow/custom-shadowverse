@@ -1,0 +1,6 @@
+JAR file: out/artifacts/FinalProject.jar
+JAVA doc: doc/
+source files: src/
+resource files: Resources/
+
+COMPATIBLE WITH ECLIPSE & INTELLIJ

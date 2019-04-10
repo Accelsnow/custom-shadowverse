@@ -1,0 +1,215 @@
+ID Kind Name Class Cost Rarity Sword DEF ATK EVODEF EVOATK atkstat bane ward drain ambush untargetable efx spellboost
+00001 F Goblin NEUTRAL 1 BRONZE OTHER 2 1 2 2 ENTRY false false false false false * false
+00002 F Fighter NEUTRAL 2 BRONZE OTHER 2 2 2 2 ENTRY false false false false false * false
+00003 F Mercenary_Drifter NEUTRAL 3 BRONZE OTHER 2 3 2 2 ENTRY false false false false false * false
+00004 A Well_of_Destiny NEUTRAL 2 BRONZE -1 WSTA=RDMBUFFRIFOL@1@1           
+00005 F Harnessed_Flame NEUTRAL 3 GOLD OTHER 1 2 2 2 ENTRY false false false false false WATK=DMGENELED@2 false
+00006 F Harnessed_Glass NEUTRAL 3 GOLD OTHER 2 1 2 2 ENTRY false false false false false WATK=DMGALLENEFOL@1 false
+00007 F Goliath NEUTRAL 4 BRONZE OTHER 4 3 2 2 ENTRY false false false false false * false
+00008 F Angelic_Sword_Maiden NEUTRAL 5 BRONZE OTHER 6 2 2 2 ENTRY false true false false false * false
+00009 F Water_Fairy FORESTCRAFT 1 BRONZE OTHER 1 1 2 2 ENTRY false false false false false LSTWRD=PUTFOL@Fairy@1 false
+00010 F Fairy_Whisperer FORESTCRAFT 2 BRONZE OTHER 1 1 2 2 ENTRY false false false false false FANFARE=PUTFOL@Fairy@2 false
+00011 F Elf_Guard FORESTCRAFT 2 BRONZE OTHER 3 1 2 2 ENTRY false false false false false FANFARE=GVEEFXBUFSLFCOND@WARD@1@1@USDCRD?2 false
+00012 F Elf_Metallurgist FORESTCRAFT 2 SILVER OTHER 1 2 2 2 ENTRY false false false false false FANFARE=DMGENEFOLCOND@2@USDCRD?2 false
+00013 S Sylvan_Justice FORESTCRAFT 2 BRONZE FANFARE=DMGENEFOLPUTFOL@2@Fairy@1 false           
+00014 F Dark_Elf_Faure FORESTCRAFT 3 BRONZE OTHER 3 2 2 2 ENTRY false false false false false WATK=PUTFOL@Fairy@1 false
+00015 F Okami FORESTCRAFT 4 BRONZE OTHER 4 3 2 2 ENTRY false false false false false WETR=BUFSLF@1@0 false
+00016 F Rose_Gardener FORESTCRAFT 4 SILVER OTHER 3 4 1 1 ENTRY false false false false false WEVO=RTNFOL false
+00017 F Treant FORESTCRAFT 5 BRONZE OTHER 4 4 2 2 ENTRY false false false false false FANFARE=BUFSLFCOND@2@2@USDCRD?2 false
+00018 F Elf_Tracker FORESTCRAFT 6 BRONZE OTHER 5 4 2 2 ENTRY false false false false false FANFARE=DMGRDMMULENEFOL@1@2 false
+00019 F Magna_Botanist FORESTCRAFT 6 SILVER OTHER 5 5 2 2 ENTRY false false false false false FANFARE=BUFFRIFOLCOND@1@1@USDCRD?2 false
+00020 F Quickblader SWORDCRAFT 1 BRONZE OFFICER 1 1 2 2 STORM false false false false false * false
+00021 F Oathless_Knight SWORDCRAFT 2 BRONZE OFFICER 1 1 2 2 ENTRY false false false false false FANFARE=SUMFOL@Knight false
+00022 F Kunoichi_Trainee SWORDCRAFT 2 BRONZE OFFICER 1 2 2 2 ENTRY false false false true false * false
+00023 S Unbridled_Fury SWORDCRAFT 2 BRONZE FANFARE=DMGENEFOLVAR@FRIFOLONFLD false           
+00024 F Ascetic_Knight SWORDCRAFT 3 BRONZE OFFICER 2 1 2 2 ENTRY false false false false false FANFARE=SUMFOL@Heavy_Knight false
+00025 S Forge_Weaponry SWORDCRAFT 3 BRONZE FANFARE=BUFFRIFOL@2@2 false           
+00026 F White_General SWORDCRAFT 4 BRONZE COMMANDER 3 3 2 2 ENTRY false false false false false FANFARE=BUFFRIOFF@2@0 false
+00027 F Floral_Fencer SWORDCRAFT 4 SILVER OFFICER 4 3 1 1 ENTRY false false false false false WEVO=SUMFOL@Knight@Steelclad_Knight false
+00028 A Royal_Banner SWORDCRAFT 4 SILVER -1 FANFARE=BUFALLFRIOFF@1@0+WETR=BUFFRIOFFETR@1@0           
+00029 F Ninja_Master SWORDCRAFT 5 BRONZE OFFICER 4 4 2 2 ENTRY false false false true false * false
+00030 F Sage_Commander SWORDCRAFT 6 SILVER COMMANDER 6 4 2 2 ENTRY false false false false false FANFARE=BUFALLFRIFOL@1@1 false
+00031 S Insight RUNECRAFT 1 BRONZE FANFARE=DRWCRD@1 false           
+00032 F Sammy_Wizard's_Apprentice RUNECRAFT 2 BRONZE OTHER 2 2 2 2 ENTRY false false false false false FANFARE=BTHDRWCRD@1 false
+00033 S Magic_Missile RUNECRAFT 2 BRONZE FANFARE=DMGENEFOLDRWCRD@1@1 false           
+00034 S Conjure_Golem RUNECRAFT 2 BRONZE FANFARE=SUMFOL@Clay_Golem false           
+00035 S Wind_Blast RUNECRAFT 2 BRONZE FANFARE=DMGENEFOLBSTDMG@1 true           
+00036 S Summon_Snow RUNECRAFT 3 BRONZE FANFARE=SUMFOLBSTNUM@Snowman true           
+00037 F Demonflame_Mage RUNECRAFT 4 SILVER OTHER 4 3 1 1 ENTRY false false false false false WEVO=DMGALLENEFOL@1 false
+00038 S Conjure_Twosome RUNECRAFT 4 BRONZE FANFARE=SUMMULFOL@Clay_Golem@2 false           
+00039 F Lightning_Shooter RUNECRAFT 5 SILVER OTHER 3 3 2 2 ENTRY false false false false false FANFARE=DMGENEFOLBSTDMG@1 true
+00040 S Fiery_Embrace RUNECRAFT 8 BRONZE FANFARE=KILENEFOLBSTCST true           
+00041 F Flame_Destroyer RUNECRAFT 10 SILVER OTHER 7 7 2 2 ENTRY false false false false false FANFARE=BSTCST true
+00042 S Blazing_Breath DRAGONCRAFT 1 BRONZE FANFARE=DMGENEFOL@2 false           
+00043 F Dragonrider DRAGONCRAFT 2 BRONZE OTHER 2 2 2 2 ENTRY false false false false false FANFARE=BUFSLFCOND@2@0@OVRFLW false
+00044 S Dragon_Oracle DRAGONCRAFT 2 BRONZE FANFARE=INCCSTDRWCRDCOND@1@OVRFLW false           
+00045 F Firstborn_Dragon DRAGONCRAFT 3 BRONZE OTHER 3 2 2 2 ENTRY false false false false false FANFARE=GVEEFXCOND@WARD@OVRFLW false
+00046 F Death_Dragon DRAGONCRAFT 4 BRONZE OTHER 4 4 2 2 ENTRY false false false false false * false
+00047 F Dragon_Warrior DRAGONCRAFT 4 SILVER OTHER 4 3 1 1 ENTRY false false false false false WEVO=DMGENEFOL@3 false
+00048 S Serpent_Wrath DRAGONCRAFT 4 BRONZE FANFARE=DMGENEFOL@6 false           
+00049 F Disaster_Dragon DRAGONCRAFT 5 BRONZE OTHER 5 4 2 2 ENTRY false false false false false WATK=BUFSLF@2@0+WEND=BUFSLFCOND@-2@0@ATKED false
+00050 F Dragonguard DRAGONCRAFT 6 BRONZE OTHER 6 5 2 2 ENTRY false false false false false FANFARE=GVEEFXCOND@WARD@OVRFLW false
+00051 F Dread_Dragon DRAGONCRAFT 7 SILVER OTHER 4 4 2 2 ENTRY false false false false false FANFARE=DMGENEFOL@4 false
+00052 S Conflagration DRAGONCRAFT 7 SILVER FANFARE=DMGALLFOL@4 false           
+00053 F Spartoi_Sergeant SHADOWCRAFT 2 BRONZE OTHER 2 2 2 2 ENTRY false false false false false FANFARE=ADDNEC@1 false
+00054 F Spectre SHADOWCRAFT 2 BRONZE OTHER 1 2 2 2 ENTRY true false false false false * false
+00055 S Undying_Resentment SHADOWCRAFT 2 BRONZE FANFARE=DMGENEFOLVAR@NEC?2?4?2 false           
+00056 F Apprentice_Necromancer SHADOWCRAFT 3 BRONZE OTHER 3 2 2 2 ENTRY false false false false false FANFARE=SUMFOLCOND@Zombie@NEC?4 false
+00057 F Elder_Spartoi_Soldier SHADOWCRAFT 4 BRONZE OTHER 3 4 2 2 ENTRY false false false false false FANFARE=ADDNEC@2 false
+00058 F Playful_Necromancer SHADOWCRAFT 4 SILVER OTHER 3 4 1 1 ENTRY false false false false false WEVO=SUMMULFOL@Ghost@2 false
+00059 F Hell's_Unleasher SHADOWCRAFT 4 SILVER OTHER 1 1 2 2 ENTRY false false false false false LSTWRD=SUMFOL@Lich false
+00060 F Gravewaker SHADOWCRAFT 5 BRONZE OTHER 3 3 2 2 ENTRY false false false false false LSTWRD=SUMFOL@Zombie false
+00061 S Call_of_the_Void SHADOWCRAFT 5 BRONZE FANFARE=KILENEFOLSUMFOLCOND@Zombie@NEC?4 false           
+00062 F Ghostly_Rider SHADOWCRAFT 6 BRONZE OTHER 5 5 2 2 ENTRY false true false false false LSTWRD=GVERDMFRIFOLEFX@WARD false
+00063 F Undead_King SHADOWCRAFT 7 SILVER OTHER 4 4 2 2 ENTRY false false false false false LSTWRD=SUMMULFOL@Zombie@2 false
+00064 F Nightmare BLOODCRAFT 2 BRONZE OTHER 2 2 2 2 ENTRY false false false false false FANFARE=BUFSLFCOND@2@0@VENG false
+00065 F Sweetfang_Vampire BLOODCRAFT 2 BRONZE OTHER 3 1 2 2 ENTRY false false true false false * false
+00066 S Blood_Pact BLOODCRAFT 2 BRONZE FANFARE=DMGSLFLEDDRWCRD@2@2 false           
+00067 S Razory_Claw BLOODCRAFT 2 BRONZE FANFARE=DMGSLFLEDDMGENETAR@2@3 false           
+00068 F Crazed_Executioner BLOODCRAFT 3 BRONZE OTHER 3 3 2 2 ENTRY false false false false false FANFARE=DMGSLFLED@2 false
+00069 F Dark_General BLOODCRAFT 4 BRONZE OTHER 3 4 2 2 ENTRY false false false false false FANFARE=GVEEFXCOND@STORM@VENG false
+00070 F Wardrobe_Raider BLOODCRAFT 4 SILVER OTHER 4 3 1 1 ENTRY false false false false false WEVO=DMGENEFOLHELSLFLED@2@2 false
+00071 S Crimson_Purge BLOODCRAFT 4 BRONZE FANFARE=DMGSLFLEDKILENEFOL@2 false           
+00072 F Imp_Lancer BLOODCRAFT 6 BRONZE OTHER 6 3 2 2 STORM false false false false false * false
+00073 S Demonic_Storm BLOODCRAFT 6 SILVER FANFARE=DMGALL@3 false           
+00074 F Abyss_Beast BLOODCRAFT 7 SILVER OTHER 6 5 2 2 ENTRY false false false false false FANFARE=DMGENEFOLCOND@5@VENG false
+00075 A Summon_Pegasus HAVENCRAFT 1 BRONZE 4 LSTWRD=SUMFOL@Pegasus           
+00076 F Snake_Priestess HAVENCRAFT 2 BRONZE OTHER 3 1 2 2 ENTRY false true false false false * false
+00077 S Hallowed_Dogma HAVENCRAFT 2 BRONZE FANFARE=DECCDDRWCRD@2@1 false           
+00078 S Blackened_Scripture HAVENCRAFT 2 BRONZE FANFARE=BANENEFOLHPLES@3 false           
+00079 A Beastly_Vow HAVENCRAFT 2 BRONZE 2 LSTWRD=SUMFOL@Holyflame_Tiger           
+00080 A Featherwyrm's_Descent HAVENCRAFT 3 BRONZE 3 LSTWRD=SUMFOL@Holywing_Dragon           
+00081 F Priest_of_the_Cudgel HAVENCRAFT 4 SILVER OTHER 4 3 1 1 ENTRY false false false false false WEVO=BANENEFOLHPLES@3 false
+00082 F Greater_Priestess HAVENCRAFT 5 SILVER OTHER 4 3 2 2 ENTRY false false false false false FANFARE=DECCDALL@1 false
+00083 S Acolyte's_Light HAVENCRAFT 5 BRONZE FANFARE=BANENEFOL false           
+00084 A Dual_Flames HAVENCRAFT 5 SILVER 2 LSTWRD=SUMMULFOL@Holyflame_Tiger@2           
+00085 F Curate HAVENCRAFT 7 BRONZE OTHER 5 5 2 2 ENTRY false false false false false FANFARE=HELSLFLED@5 false
+00086 S Angelic_Snipe NEUTRAL 1 SILVER FANFARE=DMGENEFOL@1 false           
+00087 F Minotaur NEUTRAL 2 BRONZE OTHER 1 2 2 2 ENTRY false true false false false * false
+00088 F Bellringer_Angel NEUTRAL 2 BRONZE OTHER 2 0 2 2 ENTRY false true false false false LSTWRD=DRWCRD@1 false
+00089 S Keen_Enchantment NEUTRAL 2 BRONZE FANFARE=BUFFRIFOL@2@0 false           
+00090 S Trail_of_Light NEUTRAL 2 SILVER FANFARE=DRWCRD@1 false           
+00091 S Altered_Fate NEUTRAL 2 GOLD FANFARE=DISHNDDRWHND false           
+00092 F Shield_Angel NEUTRAL 3 BRONZE OTHER 4 1 2 2 ENTRY false true false false false * false
+00093 F Healing_Angel NEUTRAL 3 BRONZE OTHER 3 2 2 2 ENTRY false false false false false FANFARE=HELSLFLED@2 false
+00094 F Lizardman NEUTRAL 3 SILVER OTHER 2 3 0 0 ENTRY false true false false false WEVO=SUMFOL@Lizardman false
+00095 S Cloud_Chorus NEUTRAL 3 BRONZE FANFARE=BUFFRIFOL@0@3 false           
+00096 S Angelic_Barrage NEUTRAL 3 SILVER FANFARE=DMGENEALL@1 false           
+00097 F Desert_Rider NEUTRAL 4 BRONZE OTHER 3 4 2 2 ENTRY false false false false false * false
+00098 F Urd NEUTRAL 4 GOLD OTHER 3 3 2 2 ENTRY false false false false false FANFARE=KILFOLREVFOL false
+00099 S Demonic_Strike NEUTRAL 4 BRONZE FANFARE=DMGENETAR@3 false           
+00100 A Path_to_Purgatory NEUTRAL 4 GOLD -1 WEND=DMGENEALLCOND@6@GRAVE?30           
+00101 F Goblinmount_Demon NEUTRAL 5 SILVER OTHER 7 3 2 2 ENTRY false true false false false FANFARE=DMGALLFRIFOL@3 false
+00102 F Wind_God NEUTRAL 5 GOLD OTHER 5 1 2 2 ENTRY false false false false false FANFARE=BUFALLFRIFOL@1@0+WSTA=BUFALLFRIFOL@1@0 false
+00103 S Execution NEUTRAL 5 SILVER FANFARE=KILENEFOLAMU false           
+00104 F Angel_Crusher NEUTRAL 6 GOLD OTHER 6 6 2 2 ENTRY false false false false false FANFARE=BUFSLFVARDISHND@1@1@HND false
+00105 F Athena NEUTRAL 6 GOLD OTHER 4 5 2 2 ENTRY false false false false false FANFARE=GVEALLFRIFOLEFX@DAMAGE_IMMUNE+WENTEND=REVALLFRIFOLEFX@DAMAGE_IMMUNE false
+00106 F Gabriel NEUTRAL 7 LEGENDARY OTHER 4 3 2 2 ENTRY false false false false false FANFARE=BUFFRIFOL@4@3 false
+00107 F Gilgamesh NEUTRAL 8 SILVER OTHER 4 5 2 2 STORM false false false false false * false
+00108 F Lucifer NEUTRAL 8 LEGENDARY OTHER 7 6 1 3 ENTRY false false false false false WEND=HELSLFLED@4+WEVO=LUCIFER false
+00109 F Prince_of_Darkness NEUTRAL 10 LEGENDARY OTHER 6 6 2 2 ENTRY false false false false false FANFARE=REPDEK@Apocalypse false
+00110 F Elf_Child_May FORESTCRAFT 1 BRONZE OTHER 1 1 2 2 ENTRY false false false false false FANFARE=DMGRDMENEFOL@1 false
+00111 F Fairy_Champion FORESTCRAFT 1 BRONZE OTHER 1 1 2 2 ENTRY false true false false false * false
+00112 S Nature's_Guidance FORESTCRAFT 1 BRONZE FANFARE=RTNFRIFOLAMUDRWCRD@1 false           
+00113 S Fairy_Circle FORESTCRAFT 1 BRONZE FANFARE=PUTFOL@Fairy@2 false           
+00114 A Woodland_Refuge FORESTCRAFT 1 SILVER -1 WEND=BUFRDMFRIFOLCOND@1@0@CONATK?1           
+00115 F Dungeoncrawl_Fairy FORESTCRAFT 2 BRONZE OTHER 2 2 2 2 ENTRY false false false false false FANFARE=RTNFRIFOLAMU false
+00116 F Fairy_Bringer FORESTCRAFT 2 BRONZE OTHER 3 1 2 2 ENTRY false false false false false FANFARE=CHGCST@Fairy@0 false
+00117 F Wandering_Elf_Mage FORESTCRAFT 2 BRONZE OTHER 1 2 2 2 ENTRY false false false false false FANFARE=DRWCRDCOND@1@USDCRD?2 false
+00118 F Elf_Wanderer FORESTCRAFT 2 BRONZE OTHER 2 2 2 2 ENTRY false false false false false FANFARE=GVEEFX@WARD_PIERCE false
+00119 F Blessed_Fairy_Dancer FORESTCRAFT 2 SILVER OTHER 1 2 2 2 ENTRY false false false false false FANFARE=BUFALLFRIFOL@1@0+WENTEND=BUFALLFRIFOL@-1@0 false
+00120 F Rhinoceroach FORESTCRAFT 2 GOLD OTHER 1 1 2 2 STORM false false false false false FANFARE=BUFSLFVAR@USDCRD@0+WENTEND=CHGSLFATKVAR@ORGATK false
+00121 S Pixie_Mischief FORESTCRAFT 2 BRONZE FANFARE=RTNFRIFOLRDMRTNENEFOL false           
+00122 S Woodkin_Curse FORESTCRAFT 2 BRONZE FANFARE=CHGENEFOLHP@1 false           
+00123 A Forest_of_Dreams FORESTCRAFT 2 BRONZE 2 WEND=GVERDMENEFOLEFX@DISABLED           
+00124 F Archer FORESTCRAFT 3 BRONZE OTHER 2 2 2 2 ENTRY false false false false false WETR=DMGRDMENEFOL@1 false
+00125 F Fen_Sprite FORESTCRAFT 3 BRONZE OTHER 1 2 2 2 ENTRY false false false false false FANFARE=GVEENEFOLEFX@DISABLED false
+00126 F Waltzing_Fairy FORESTCRAFT 3 SILVER OTHER 2 2 2 2 ENTRY false false false false false FANFARE=PUTFOL@Fairy@1+LSTWRD=PUTFOL@Fairy@1 false
+00127 F Tam_Lin FORESTCRAFT 3 SILVER OTHER 2 2 2 2 ENTRY false false false false false FANFARE=BUFSLFVAR@USDCRD@USDCRD false
+00128 F Carnivorous_Flower FORESTCRAFT 3 SILVER OTHER 1 3 2 2 ENTRY false false false false false FANFARE=KILENEAMUCOND@USDCRD?2 false
+00129 F Ancient_Elf FORESTCRAFT 3 LEGENDARY OTHER 3 2 2 2 ENTRY false true false false false FANFARE=BUFSLFVARRTNALLFRIFOL@FRIFOLONFLD false
+00130 S Elemental_Lance FORESTCRAFT 3 BRONZE FANFARE=DMGENEFOLVAR@COND?USDCRD?2?3?6 false           
+00131 A Pixie_Paradise FORESTCRAFT 3 BRONZE -1 WEND=PUTFOL@Fairy@1           
+00132 F Elven_Princess_Mage FORESTCRAFT 4 SILVER OTHER 4 3 1 1 ENTRY false false false false false WEVO=PUTFOLCHGCST@Fairy@2@0 false
+00133 F Mana_Elk FORESTCRAFT 4 BRONZE OTHER 4 4 2 2 ENTRY false false false false false * false
+00134 F Petal_Fencer FORESTCRAFT 4 GOLD OTHER 2 2 2 2 ENTRY false false false false false WETR=CHGETRCRD@Fairy@Petal_Fencer false
+00135 S Way_of_the_Outlaw FORESTCRAFT 4 BRONZE FANFARE=DMGENEFOLVAR@HND false           
+00136 A Harvest_Festival FORESTCRAFT 4 SILVER -1 WEND=DRWCRDCOND@1@USDCRD?3           
+00137 F Fairy_Caster FORESTCRAFT 5 BRONZE OTHER 3 3 2 2 ENTRY false false false false false FANFARE=PUTFOL@Fairy@3 false
+00138 F Elf_Prophetess FORESTCRAFT 5 SILVER OTHER 5 4 2 2 ENTRY false true false false false FANFARE=RTNFRIFOLAMU false
+00139 F Nobel_Fairy FORESTCRAFT 5 GOLD OTHER 4 4 2 2 ENTRY false false false false false FANFARE=CHGENEFLDHPCOND@1@USDCRD?2 false
+00140 F Robin_Hood FORESTCRAFT 5 GOLD OTHER 6 3 2 2 ENTRY false false false false false WFIG=DMGFIGENEFOL@2 false
+00141 S Will_of_the_Forest FORESTCRAFT 5 GOLD FANFARE=DMGRDMMULENEFOLVAR@1@HND false           
+00142 A Titania's_Sanctuary FORESTCRAFT 5 GOLD -1 WETR=FREEVOFOL@Fairy           
+00143 F Elder_Treant FORESTCRAFT 6 SILVER OTHER 4 5 2 2 ENTRY false false false false false FANFARE=EVOSLFCOND@USDCRD?2 false
+00144 F Fairy_Beast FORESTCRAFT 6 SILVER OTHER 4 4 2 2 ENTRY false false false false false FANFARE=HELSLFLEDVAR@HND false
+00145 F Fairy_Princess FORESTCRAFT 6 LEGENDARY OTHER 4 4 2 2 ENTRY false false false false false FANFARE=PUTHNDFULFOL@Fairy false
+00146 F Forest_Archelon FORESTCRAFT 7 SILVER OTHER 7 5 2 2 ENTRY false false false false false FANFARE=GVEALLENEFOLEFX@DISABLED false
+00147 S Homecoming FORESTCRAFT 7 GOLD FANFARE=RTNALLFOL false false          
+00148 F Forest_Giant FORESTCRAFT 8 SILVER OTHER 6 5 2 2 ENTRY false false false false false FANFARE=DMGENEFOLVAR@HND false
+00149 F Ancient_Forest_Dragon FORESTCRAFT 8 GOLD OTHER 8 6 2 2 ENTRY false true false false false WSTA=GVEALLFRIFOLEFX@DAMAGE_IMMUNE false
+00150 F Rose_Queen FORESTCRAFT 8 LEGENDARY OTHER 5 5 2 2 ENTRY false false false false false FANFARE=TRAALLHNDCRD@Fairy@Thorn_Burst false
+00151 S Silver_Bolt FORESTCRAFT 9 GOLD FANFARE=DRWCRDDMGENETARVAR@1@HND false           
+00152 F Ninja_Trainee SWORDCRAFT 1 BRONZE OFFICER 1 1 2 2 ENTRY false false false true false * false
+00153 F Vanguard SWORDCRAFT 1 BRONZE OFFICER 2 1 2 2 ENTRY false false false false false * false
+00154 A Front_Lines SWORDCRAFT 1 GOLD -1 WEND=BUFRDMFRIOFF@1@0           
+00155 F Fervid_Soldier SWORDCRAFT 2 BRONZE OFFICER 2 2 2 2 ENTRY false false false false false WETR=BUFSLFCOMETR@1@0+WEND=CHGSLFATKVAR@ORGATK false
+00156 F Palace_Fencer SWORDCRAFT 2 BRONZE COMMANDER 1 2 2 2 ENTRY false false false false false FANFARE=BUFFRIOFF@1@0 false
+00157 F Cyclone_Soldier SWORDCRAFT 2 BRONZE OFFICER 1 3 2 2 ENTRY false false false false false * false
+00158 F Centaur_Vanguard SWORDCRAFT 2 BRONZE OFFICER 1 2 2 2 ENTRY false false false false false FANFARE=GVESLFEFXCOND@STORM@COMFLD false
+00159 F Veteran_Lancer SWORDCRAFT 2 BRONZE OFFICER 2 2 2 2 ENTRY false true false false false * false
+00160 F Maid_Leader SWORDCRAFT 2 SILVER OFFICER 1 1 2 2 ENTRY false false false false false FANFARE=DRWRDMCOM@1 false
+00161 F Assassin SWORDCRAFT 2 SILVER OFFICER 1 2 2 2 ENTRY false false false false false FANFARE=GVEFRICOMEFX@AMBUSH false
+00162 F Luminous_Knight SWORDCRAFT 2 SILVER COMMANDER 1 2 1 1 ENTRY false false false false false WEVO=BUFALLFRIFOL@1@0+WEND=BUFALLFRIFOLCOND@-1@0@ACTIVATED false
+00163 F Princess_Vanguard SWORDCRAFT 2 SILVER COMMANDER 3 1 2 2 ENTRY false false false false false FANFARE=BUFONECSTFRIFOL@1@0 false
+00164 S Conscription SWORDCRAFT 2 SILVER FANFARE=DRWRDMOFFVAR@COND?COMFLD??1?2 false           
+00165 A Ironwrought_Fortress SWORDCRAFT 2 SILVER -1 WETR=SUMFOLCOMETR@Heavy_Knight           
+00166 F Fencer SWORDCRAFT 3 BRONZE COMMANDER 2 2 2 2 ENTRY false false false false false FANFARE=BUFFRIOFF@1@1 false
+00167 F Novice_Trooper SWORDCRAFT 3 BRONZE OFFICER 2 2 2 2 STORM false false false false false * false
+00168 F Snippy_Gardener SWORDCRAFT 3 BRONZE OFFICER 2 3 2 2 ENTRY false false false false false FANFARE=BUFSLFCOND@1@1@COMFLD false
+00169 F Navy_Lieutenant SWORDCRAFT 3 SILVER COMMANDER 3 2 2 2 ENTRY false false false false false FANFARE=GVEALLFRIOFFEFX@WARD false
+00170 F Pompous_Princess SWORDCRAFT 3 SILVER COMMANDER 1 2 2 2 ENTRY false false false false false FANFARE=SUMCSTDEKFOL@1@1 false
+00171 F Gemstaff_Commander SWORDCRAFT 3 GOLD COMMANDER 2 3 1 1 ENTRY false false false false false WEVO=BUFFRIOFF@2@2 false
+00172 S Giant_Slayer SWORDCRAFT 3 BRONZE FANFARE=KILENEATKFOL@5 false           
+00173 F Courageous_Knight SWORDCRAFT 4 BRONZE OFFICER 2 2 2 2 ENTRY false false false false false FANFARE=SUMFOL@Steelclad_Knight false
+00174 F Cursed_General SWORDCRAFT 4 SILVER COMMANDER 3 3 2 2 ENTRY false false false false false WETR=GVEETROFFEFX@STORM false
+00175 F Swordsman SWORDCRAFT 4 SILVER OFFICER 3 4 2 2 ENTRY false false false false false WEVO=KILENEATKFOL@5 false
+00176 F Shadowed_Assassin SWORDCRAFT 4 GOLD OFFICER 3 3 2 2 ENTRY false false false false false FANFARE=GVEALLFRIFOLEFX@AMBUSH false
+00177 F Latham,Vanguard_Captain SWORDCRAFT 4 GOLD COMMANDER 3 4 2 2 ENTRY false false false false false WATK=SUMFOL@Knight false
+00178 S Rousing_Step SWORDCRAFT 4 BRONZE FANFARE=BUFALLFRIFOL@1@1 false           
+00179 S Stratagem SWORDCRAFT 4 GOLD FANFARE=DRWCRDVAR@FRIFOLONFLD false           
+00180 F Sentry SWORDCRAFT 5 BRONZE OFFICER 5 4 2 2 ENTRY false false false false false FANFARE=GVESLFEFXCOND@WARD@COMFLD false
+00181 F Percival SWORDCRAFT 5 SILVER COMMANDER 3 4 2 2 ENTRY false false false false false FANFARE=DMGENELEDVAR@FRIOFFONFLD false
+00182 F Noble_Knight SWORDCRAFT 5 SILVER COMMANDER 3 3 2 2 ENTRY false false false false false FANFARE=SUMFOL@Knight@Knight false
+00183 F Aurelia,Regal_Saber SWORDCRAFT 5 LEGENDARY COMMANDER 6 2 2 2 ENTRY false true false false false FANFARE=BUFSLFGVESLFEFXVARCOND@UNTARGETABLE@ENEFOL?3 false
+00184 S Onslaught SWORDCRAFT 5 BRONZE FANFARE=KILENEFOLSUMFOLCOND@Knight@COMFLD false           
+00185 A Arthurian_Light SWORDCRAFT 5 GOLD -1 WETR=GVEETRFRIFOLEFXCOND@STORM@CST?1+WSTA=SUMEFXFOL@Knight@STORM           
+00186 F Warbound_Cavalier SWORDCRAFT 6 BRONZE OFFICER 5 5 2 2 ENTRY false false false false false FANFARE=SUMFOL@Knight false
+00187 F Admiral SWORDCRAFT 6 BRONZE COMMANDER 4 4 2 2 ENTRY false false false false false FANFARE=BUFFRIOFF@2@2 false
+00188 F Sea_Queen_Otohime SWORDCRAFT 6 LEGENDARY COMMANDER 4 3 2 2 ENTRY false false false false false FANFARE=SUMFULFLDFOL@Otohime's_Bodyguard false
+00189 F Tsubaki SWORDCRAFT 6 LEGENDARY OFFICER 3 4 2 2 ENTRY false false false true false FANFARE=KILENEATKFOL@5 false
+00190 S Alwida's_Command SWORDCRAFT 6 GOLD FANFARE=SUMFOL@Pirate@Viking false           
+00191 F Frontguard_General SWORDCRAFT 7 GOLD COMMANDER 6 5 2 2 ENTRY false true false false false LSTWRD=SUMFOL@Fortress_Guard false
+00192 F Enraged_General SWORDCRAFT 8 SILVER COMMANDER 8 8 2 2 ENTRY false false false false false * false
+00193 F Dragonewt_Charlotte SWORDCRAFT 8 GOLD COMMANDER 7 4 2 2 STORM false true false false false * false
+90002 F Fairy FORESTCRAFT 1 BRONZE OTHER 1 1 2 2 ENTRY false false false false false * false
+90003 F Knight SWORDCRAFT 1 BRONZE OFFICER 1 1 2 2 ENTRY false false false false false * false
+90004 F Heavy_Knight SWORDCRAFT 1 BRONZE OFFICER 2 1 2 2 ENTRY false false false false false * false
+90005 F Steelclad_Knight SWORDCRAFT 2 BRONZE OFFICER 2 2 2 2 ENTRY false false false false false * false
+90006 F Clay_Golem RUNECRAFT 2 BRONZE OTHER 2 2 2 2 ENTRY false false false false false * false
+90007 F Snowman RUNECRAFT 1 BRONZE OTHER 1 1 2 2 ENTRY false false false false false * false
+90008 F Zombie SHADOWCRAFT 2 BRONZE OTHER 2 2 2 2 ENTRY false false false false false * false
+90009 F Ghost SHADOWCRAFT 1 BRONZE OTHER 1 1 2 2 STORM false false false false false WEND=SLFBAN false
+90010 F Lich SHADOWCRAFT 4 BRONZE OTHER 4 4 2 2 ENTRY false false false false false * false
+90011 F Pegasus HAVENCRAFT 5 BRONZE OTHER 3 5 2 2 ENTRY false false false false false * false
+90012 F Holyflame_Tiger HAVENCRAFT 4 BRONZE OTHER 4 4 2 2 ENTRY false false false false false * false
+90013 F Holywing_Dragon HAVENCRAFT 6 BRONZE OTHER 6 6 2 2 ENTRY false false false false false * false
+90014 F Servant_of_Darkness NEUTRAL 5 LEGENDARY OTHER 13 13 2 2 ENTRY false false false false false * false
+90015 F Silent_Rider NEUTRAL 6 LEGENDARY OTHER 8 8 2 2 STORM false false false false false * false
+90016 S Dis's_Damnation NEUTRAL 7 LEGENDARY FANFARE=DMGENETARHELSLFLED@7@7 false           
+90017 S Astaroth's_Reckoning NEUTRAL 10 LEGENDARY FANFARE=DMGENELEDVAR@ENELEDONE false           
+90018 S Thorn_Burst FORESTCRAFT 2 LEGENDARY FANFARE=DMGENETAR@3 false           
+90019 F Otohime's_Bodyguard SWORDCRAFT 1 LEGENDARY OFFICER 2 1 2 2 ENTRY false false false false false * false
+90020 F Pirate SWORDCRAFT 3 BRONZE OFFICER 3 2 2 2 ENTRY false true false false false * false
+90021 F Viking SWORDCRAFT 3 BRONZE OFFICER 2 3 2 2 STORM false false false false false * false
+90022 F Fortress_Guard SWORDCRAFT 3 BRONZE OFFICER 3 2 2 2 ENTRY false true false false false * false
